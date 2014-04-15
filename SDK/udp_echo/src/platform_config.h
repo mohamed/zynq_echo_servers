@@ -1,0 +1,12 @@
+#ifndef __PLATFORM_CONFIG_H_
+#define __PLATFORM_CONFIG_H_
+
+#define STDOUT_IS_UARTLITE
+
+#define PLATFORM_EMAC_BASEADDR XPAR_XEMACPS_0_BASEADDR
+
+#ifdef __PPC__
+#define CACHEABLE_REGION_MASK 0xfffffffff0000001
+#endif
+
+#endif

@@ -1,0 +1,8 @@
+__xps/
+implementation/
+*.log
+*.o
+*.d
+*.elf
+*.bin
+.metadata
