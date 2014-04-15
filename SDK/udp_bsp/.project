@@ -3,7 +3,7 @@
 	<name>udp_bsp</name>
 	<comment></comment>
 	<projects>
-		<project>zynq_latency_test_hw_platform</project>
+		<project>zynq_echo_servers_hw_platform</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

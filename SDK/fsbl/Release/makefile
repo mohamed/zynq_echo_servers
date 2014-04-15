@@ -35,7 +35,7 @@ all: fsbl.elf secondary-outputs
 fsbl.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM gcc linker'
-	arm-xilinx-eabi-gcc -L"/home/mohamed/work/code/zynq_latency_test/SDK/fsbl/src" -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "fsbl.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-xilinx-eabi-gcc -L"/home/mohamed/work/code/zynq_echo_servers/SDK/fsbl/src" -Wl,-T -Wl,../src/lscript.ld -L../../fsbl_bsp/ps7_cortexa9_0/lib -o "fsbl.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
